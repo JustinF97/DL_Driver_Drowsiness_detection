@@ -4,4 +4,5 @@
 
 | Aufgabe       |   Link   |                                                                                                               
 | ------------- | -------- |
-| [DDD]|https://github.com/JustinF97/DL_Driver_Drowsiness_detection/tree/main/Projekt/Drowsiness%20detection|   
+| [Projekt]     |https://github.com/JustinF97/DL_Driver_Drowsiness_detection/tree/main/Projekt/Drowsiness%20detection|  
+| [Ausarbeitung]|https://github.com/JustinF97/DL_Driver_Drowsiness_detection/tree/main/Projekt/Drowsiness%20detection|
