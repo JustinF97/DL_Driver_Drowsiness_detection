@@ -1,4 +1,4 @@
-# DL_Driver_Drowsiness_detection
+# DL Driver Drowsiness Detection
 
 [Justin Frommberger](https://github.com/JustinF97)
 
