@@ -1,0 +1,92 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{listings}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{0,0,113}
+\definecolor{red}{RGB}{160,0,0}
+\definecolor{green}{RGB}{0,150,0}
+\begin{document}
+
+\lstset{language=Python, 
+        basicstyle=\ttfamily\small, 
+        keywordstyle=\color{keywords},
+        commentstyle=\color{comments},
+                stringstyle=\color{red},
+        showstringspaces=false,
+        identifierstyle=\color{green},
+        keywords=[2]{pow},
+        keywordstyle=[2]{\color{orange}},
+}
+\lstset{frame=lines}
+%\lstset{caption={Insert code directly in your document}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+
+
+\title{Conference Paper Title*\\
+{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
+should not be used}
+
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Justin Frommberger}
+\IEEEauthorblockA{\textit{Interaktionstechnik und Design} \\
+\textit{Hochschule Hamm-Lippstadt}\\
+City, Country \\
+email address or ORCID}
+}
+
+\maketitle
+
+\begin{abstract}
+This document is a model and instructions for \LaTeX.
+This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
+or Math in Paper Title or Abstract.
+\end{abstract}
+
+\begin{IEEEkeywords}
+component, formatting, style, styling, insert
+\end{IEEEkeywords}
+
+
+\input{Einleitung}
+\input{Diagramme}
+\input{Begriffe_Beispiele}
+\input{Projekt_Driver_Drowsiness_Detection_System}
+\input{ShowCase}
+\input{Fazit}
+\newpage
+
+
+
+
+\begin{thebibliography}{00}
+
+\bibitem{b1} https://data-flair.training/blogs/python-project-driver-drowsiness-detection-system/
+
+\bibitem{b2} https://smartrider.ch/de/aktuelles/muedigkeit-am-steuer-ist-gefaehrlich
+
+\bibitem{b3} https://www.aachener-zeitung.de/ratgeber/auto/fahrassistenzsysteme
+
+\bibitem{b4} https://www.bussgeldkatalog.org/muedigkeitserkennung/
+
+\bibitem{b5} https://ysjournal.com/medical-image-translation-using-convolutional-neural-networks/
+
+\bibitem{b6} https://www.tt.com/artikel/18188598/uebermuedung-am-steuer-2020-ursache-fuer-268-unfaelle
+
+\bibitem{b7} https://www.bosch-presse.de/pressportal/de/de/lebensretter-per-kamera-mit-bosch-behaelt-das-auto-seine-insassen-im-blick-204288
+
+
+\end{thebibliography}
+\vspace{12pt}
+\end{document}
